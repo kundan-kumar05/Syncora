@@ -31,7 +31,7 @@ export default function Contact() {
             Contact Us
           </span>
           <h2 className="heading-lg text-white mb-5">
-            Let's Build Your{" "}
+            Let&apos;s Build Your{" "}
             <span className="gradient-text">ERP Solution</span>
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto">
@@ -51,7 +51,7 @@ export default function Contact() {
               {
                 icon: MapPin,
                 label: "Headquarters",
-                lines: ["Solvify Technologies Inc.", "123 Enterprise Blvd, Suite 900", "San Francisco, CA 94105, USA"],
+                lines: ["Syncora Technologies Inc.", "123 Enterprise Blvd, Suite 900", "San Francisco, CA 94105, USA"],
                 color: "from-blue-500 to-cyan-500",
               },
               {
@@ -63,7 +63,7 @@ export default function Contact() {
               {
                 icon: Mail,
                 label: "Email",
-                lines: ["hello@solvify.com", "support@solvify.com"],
+                lines: ["hello@syncora.com", "support@syncora.com"],
                 color: "from-violet-500 to-purple-500",
               },
               {

@@ -12,7 +12,7 @@ const testimonials = [
     avatar: "JD",
     avatarColor: "from-blue-500 to-blue-700",
     rating: 5,
-    text: "Solvify completely transformed how we manage our 14 manufacturing plants. The real-time dashboards and AI-powered analytics have given us visibility we never had before. Our operational efficiency improved by 40% within the first six months.",
+    text: "Syncora completely transformed how we manage our 14 manufacturing plants. The real-time dashboards and AI-powered analytics have given us visibility we never had before. Our operational efficiency improved by 40% within the first six months.",
     industry: "Manufacturing",
   },
   {
@@ -22,7 +22,7 @@ const testimonials = [
     avatar: "SK",
     avatarColor: "from-purple-500 to-purple-700",
     rating: 5,
-    text: "The finance module automation alone saved us 2,000+ man-hours per month. Invoice processing, reconciliation, and compliance reporting that used to take weeks now happens in real-time. Solvify's implementation team was exceptional.",
+    text: "The finance module automation alone saved us 2,000+ man-hours per month. Invoice processing, reconciliation, and compliance reporting that used to take weeks now happens in real-time. Syncora's implementation team was exceptional.",
     industry: "Healthcare",
   },
   {
@@ -32,7 +32,7 @@ const testimonials = [
     avatar: "AM",
     avatarColor: "from-green-500 to-emerald-700",
     rating: 5,
-    text: "Unifying 120 store locations on a single ERP seemed impossible until we partnered with Solvify. The inventory visibility alone has increased our stock turnover by 3x. I'd recommend Solvify to any retail chain looking to scale.",
+    text: "Unifying 120 store locations on a single ERP seemed impossible until we partnered with Syncora. The inventory visibility alone has increased our stock turnover by 3x. I'd recommend Syncora to any retail chain looking to scale.",
     industry: "Retail",
   },
   {
@@ -42,7 +42,7 @@ const testimonials = [
     avatar: "PN",
     avatarColor: "from-orange-500 to-orange-700",
     rating: 5,
-    text: "Fleet management and route optimization through Solvify cut our fuel costs by 22% in the first quarter. The mobile access feature means our drivers and managers stay connected no matter where they are.",
+    text: "Fleet management and route optimization through Syncora cut our fuel costs by 22% in the first quarter. The mobile access feature means our drivers and managers stay connected no matter where they are.",
     industry: "Logistics",
   },
   {
@@ -52,7 +52,7 @@ const testimonials = [
     avatar: "DC",
     avatarColor: "from-yellow-500 to-amber-700",
     rating: 5,
-    text: "Construction projects are notoriously hard to track financially. Solvify's project module gives us real-time budget vs actual tracking, subcontractor management, and automatic progress billing. Our project margins improved by 18%.",
+    text: "Construction projects are notoriously hard to track financially. Syncora's project module gives us real-time budget vs actual tracking, subcontractor management, and automatic progress billing. Our project margins improved by 18%.",
     industry: "Construction",
   },
 ];
@@ -84,7 +84,7 @@ export default function Testimonials() {
             <span className="gradient-text">Enterprise Leaders</span>
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto">
-            Don't take our word for it — hear from the executives who made the decision to transform with Solvify.
+            Don't take our word for it — hear from the executives who made the decision to transform with Syncora.
           </p>
         </motion.div>
 

@@ -1,7 +1,7 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MessageSquare, X, Send, Bot, User, Check, Sparkles } from "lucide-react";
+import { MessageSquare, X, Send, Bot, User, Sparkles } from "lucide-react";
 
 interface Message {
   id: string;
@@ -11,10 +11,10 @@ interface Message {
 }
 
 const PRESETS = [
-  { q: "What modules are included?", a: "Solvify includes modules for Finance & Accounting, HR & Payroll, CRM, Inventory & Warehousing, Manufacturing ERP, and AI Business Intelligence. You can select only the modules you need." },
+  { q: "What modules are included?", a: "Syncora includes modules for Finance & Accounting, HR & Payroll, CRM, Inventory & Warehousing, Manufacturing ERP, and AI Business Intelligence. You can select only the modules you need." },
   { q: "Do you offer a free trial?", a: "Yes, we offer a 14-day free trial on all plans. No credit card is required. You will get access to all features and a dedicated onboarding assistant during this period." },
   { q: "How long is implementation?", a: "Core modules can be implemented in 4 weeks. Full enterprise deployments with customizations generally take between 8 to 16 weeks. We support you at every stage." },
-  { q: "Can you integrate with Salesforce?", a: "Absolutely! Solvify has 200+ native integrations, including Salesforce, QuickBooks, HubSpot, Shopify, Stripe, and SAP." }
+  { q: "Can you integrate with Salesforce?", a: "Absolutely! Syncora has 200+ native integrations, including Salesforce, QuickBooks, HubSpot, Shopify, Stripe, and SAP." }
 ];
 
 export default function LiveChat() {
@@ -23,7 +23,7 @@ export default function LiveChat() {
     {
       id: "1",
       sender: "bot",
-      text: "Hi there! I'm Solvi, your Solvify AI assistant. How can I help you transform your business today?",
+      text: "Hi there! I'm Solvi, your Syncora AI assistant. How can I help you transform your business today?",
       timestamp: new Date()
     }
   ]);
@@ -42,7 +42,7 @@ export default function LiveChat() {
     if (!text.trim()) return;
     
     const newMsg: Message = {
-      id: Math.random().toString(),
+      id: crypto.randomUUID(),
       sender,
       text,
       timestamp: new Date()
@@ -66,19 +66,19 @@ export default function LiveChat() {
       if (lower.includes("price") || lower.includes("cost") || lower.includes("pricing")) {
         response = "Our Starter plan begins at $49/user/month (billed annually). The Professional plan is $99/user/month, and Enterprise is custom. All plans include core CRM and Finance features.";
       } else if (lower.includes("module") || lower.includes("feature") || lower.includes("what does it do")) {
-        response = "Solvify offers modular business apps: Accounting, HR, CRM, Supply Chain, Manufacturing, and BI Analytics. You pay only for what you use.";
+        response = "Syncora offers modular business apps: Accounting, HR, CRM, Supply Chain, Manufacturing, and BI Analytics. You pay only for what you use.";
       } else if (lower.includes("free") || lower.includes("trial") || lower.includes("test")) {
         response = "Yes! You can start a 14-day free trial directly on our site without entering a credit card. Check out the Pricing section to get started.";
       } else if (lower.includes("integrate") || lower.includes("api") || lower.includes("salesforce")) {
-        response = "Solvify supports over 200 native integrations (Shopify, QuickBooks, Salesforce, Stripe, etc.) plus a fully featured developer REST API.";
+        response = "Syncora supports over 200 native integrations (Shopify, QuickBooks, Salesforce, Stripe, etc.) plus a fully featured developer REST API.";
       } else if (lower.includes("hello") || lower.includes("hi")) {
-        response = "Hello! How can I assist you with Solvify today?";
+        response = "Hello! How can I assist you with Syncora today?";
       }
 
       setMessages(prev => [
         ...prev,
         {
-          id: Math.random().toString(),
+          id: crypto.randomUUID(),
           sender: "bot",
           text: response,
           timestamp: new Date()

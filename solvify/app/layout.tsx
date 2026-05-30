@@ -9,21 +9,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Solvify – Intelligent ERP Software & Business Solutions",
+  title: "Syncora – Intelligent ERP Software & Business Solutions",
   description:
-    "Solvify is a leading ERP software company offering end-to-end business automation, digital transformation, and enterprise solutions across 50+ industries worldwide.",
+    "Syncora is a leading ERP software company offering end-to-end business automation, digital transformation, and enterprise solutions across 50+ industries worldwide.",
   keywords:
-    "ERP software, business automation, digital transformation, enterprise solutions, Solvify, CRM, HRM, inventory, manufacturing ERP",
+    "ERP software, business automation, digital transformation, enterprise solutions, Syncora, CRM, HRM, inventory, manufacturing ERP",
   openGraph: {
-    title: "Solvify – Intelligent ERP Software & Business Solutions",
+    title: "Syncora – Intelligent ERP Software & Business Solutions",
     description:
-      "Transform your business with Solvify's intelligent ERP solutions. Serving 500+ clients across 50+ industries.",
+      "Transform your business with Syncora's intelligent ERP solutions. Serving 500+ clients across 50+ industries.",
     type: "website",
-    url: "https://solvify.com",
+    url: "https://syncora.com",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Solvify – ERP Software & Business Solutions",
+    title: "Syncora – ERP Software & Business Solutions",
     description: "Intelligent ERP solutions for enterprise growth.",
   },
   robots: {

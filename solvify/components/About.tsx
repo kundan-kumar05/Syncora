@@ -28,14 +28,14 @@ export default function About() {
           className="text-center mb-20"
         >
           <span className="inline-block px-4 py-1.5 rounded-full text-xs font-semibold text-blue-400 bg-blue-500/10 border border-blue-500/20 uppercase tracking-widest mb-5">
-            About Solvify
+            About Syncora
           </span>
           <h2 className="heading-lg text-white mb-5">
             Built for Enterprises,{" "}
             <span className="gradient-text">Designed for People</span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-            Since 2009, Solvify has been at the forefront of enterprise technology, delivering transformative ERP solutions that redefine operational excellence.
+            Since 2009, Syncora has been at the forefront of enterprise technology, delivering transformative ERP solutions that redefine operational excellence.
           </p>
         </motion.div>
 
@@ -60,7 +60,7 @@ export default function About() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-white font-bold text-xl">Solvify ERP</h3>
+                    <h3 className="text-white font-bold text-xl">Syncora ERP</h3>
                     <p className="text-slate-400 text-sm">Enterprise Intelligence Platform</p>
                   </div>
                 </div>

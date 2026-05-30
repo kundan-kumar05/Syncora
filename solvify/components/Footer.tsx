@@ -20,7 +20,7 @@ const footerLinks = {
     { label: "Education", href: "#industries" },
   ],
   "Company": [
-    { label: "About Solvify", href: "#about" },
+    { label: "About Syncora", href: "#about" },
     { label: "Case Studies", href: "#case-studies" },
     { label: "Blog & Insights", href: "#blog" },
     { label: "Careers", href: "#" },
@@ -110,7 +110,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 max-w-xs">
-              Solvify is the intelligent ERP platform that unifies your entire business — from finance and HR to operations and analytics — in one powerful cloud ecosystem.
+              Syncora is the intelligent ERP platform that unifies your entire business — from finance and HR to operations and analytics — in one powerful cloud ecosystem.
             </p>
 
             {/* Social Links */}
@@ -176,7 +176,7 @@ export default function Footer() {
         {/* Bottom Row */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-8 border-t border-white/5">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} Solvify Technologies Inc. All rights reserved.
+            © {new Date().getFullYear()} Syncora Technologies Inc. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             {["Privacy Policy", "Terms of Service", "Cookie Policy", "Security"].map((item) => (

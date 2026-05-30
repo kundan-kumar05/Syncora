@@ -100,7 +100,7 @@ export default function Modules() {
             <span className="gradient-text">Every Business Need</span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-            Solvify's modular architecture lets you start with what you need and scale as you grow — fully integrated, zero duplication.
+            Syncora's modular architecture lets you start with what you need and scale as you grow — fully integrated, zero duplication.
           </p>
         </motion.div>
 

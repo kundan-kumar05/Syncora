@@ -8,7 +8,7 @@ const cases = [
     client: "GlobalMed Healthcare",
     industry: "Healthcare",
     challenge: "Manual billing processes causing 3–5 day payment delays and 18% error rate in claims.",
-    solution: "Deployed Solvify Finance & HRM modules with automated insurance claims processing and real-time eligibility checks.",
+    solution: "Deployed Syncora Finance & HRM modules with automated insurance claims processing and real-time eligibility checks.",
     results: ["60% faster billing cycles", "Error rate reduced to 0.3%", "$2.4M annual savings", "98% staff satisfaction"],
     color: "from-red-500 to-pink-500",
     logo: "GM",
@@ -18,7 +18,7 @@ const cases = [
     client: "TechCorp Manufacturing",
     industry: "Manufacturing",
     challenge: "Disconnected production planning and inventory systems causing 25% overstock and frequent stockouts.",
-    solution: "Integrated Solvify Manufacturing, Inventory, and Procurement modules with AI-driven demand forecasting.",
+    solution: "Integrated Syncora Manufacturing, Inventory, and Procurement modules with AI-driven demand forecasting.",
     results: ["40% reduction in stockouts", "Inventory costs down 32%", "OEE improved to 87%", "ROI in 6 months"],
     color: "from-blue-500 to-cyan-500",
     logo: "TC",
@@ -28,7 +28,7 @@ const cases = [
     client: "RetailPro Stores",
     industry: "Retail",
     challenge: "Omnichannel inventory chaos with no real-time visibility across 120+ store locations.",
-    solution: "Unified POS, inventory, and CRM on Solvify with real-time dashboards and automated replenishment.",
+    solution: "Unified POS, inventory, and CRM on Syncora with real-time dashboards and automated replenishment.",
     results: ["3x inventory turnover", "15% revenue increase", "120 stores unified", "Customer NPS +42 pts"],
     color: "from-amber-500 to-orange-500",
     logo: "RP",
@@ -58,7 +58,7 @@ export default function CaseStudies() {
             <span className="gradient-text">Real Businesses</span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-            See how enterprises across industries transformed their operations with Solvify ERP.
+            See how enterprises across industries transformed their operations with Syncora ERP.
           </p>
         </motion.div>
 

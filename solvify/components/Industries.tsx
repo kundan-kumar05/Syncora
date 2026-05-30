@@ -100,7 +100,7 @@ export default function Industries() {
             <span className="gradient-text">Your Industry</span>
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto text-lg">
-            Every industry has unique challenges. Solvify delivers sector-specific ERP modules built from real-world expertise.
+            Every industry has unique challenges. Syncora delivers sector-specific ERP modules built from real-world expertise.
           </p>
         </motion.div>
 

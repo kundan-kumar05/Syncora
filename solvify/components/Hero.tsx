@@ -60,7 +60,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-lg text-slate-400 mb-8 max-w-lg leading-relaxed"
             >
-              Solvify unifies your finance, HR, operations, and analytics into one powerful platform — empowering smarter decisions, faster growth, and complete business control.
+              Syncora unifies your finance, HR, operations, and analytics into one powerful platform — empowering smarter decisions, faster growth, and complete business control.
             </motion.p>
 
             {/* Highlights */}
@@ -152,7 +152,7 @@ export default function Hero() {
                     <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
                     <div className="w-3 h-3 rounded-full bg-green-500/80" />
                   </div>
-                  <div className="text-xs text-slate-500 font-mono">solvify.dashboard.erp</div>
+                  <div className="text-xs text-slate-500 font-mono">syncora.dashboard.erp</div>
                   <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
                 </div>
                 

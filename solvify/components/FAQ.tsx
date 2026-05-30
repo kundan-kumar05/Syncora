@@ -7,19 +7,19 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "How long does an ERP implementation typically take?",
-    a: "Most Solvify implementations go live within 8–16 weeks depending on the number of modules, integrations, and customizations required. Our Starter plan can be deployed in as little as 4 weeks for core modules.",
+    a: "Most Syncora implementations go live within 8–16 weeks depending on the number of modules, integrations, and customizations required. Our Starter plan can be deployed in as little as 4 weeks for core modules.",
   },
   {
-    q: "Can Solvify integrate with our existing software stack?",
-    a: "Yes. Solvify supports 200+ native integrations including Salesforce, Shopify, QuickBooks, Stripe, SAP, Microsoft 365, Google Workspace, and more. Our REST API and webhooks allow custom integrations with virtually any system.",
+    q: "Can Syncora integrate with our existing software stack?",
+    a: "Yes. Syncora supports 200+ native integrations including Salesforce, Shopify, QuickBooks, Stripe, SAP, Microsoft 365, Google Workspace, and more. Our REST API and webhooks allow custom integrations with virtually any system.",
   },
   {
-    q: "Is Solvify suitable for small businesses or only enterprises?",
-    a: "Solvify's modular approach makes it ideal for businesses of all sizes. Our Starter plan is designed for SMEs with as few as 10 employees, while our Enterprise plan scales to multinational corporations with thousands of users.",
+    q: "Is Syncora suitable for small businesses or only enterprises?",
+    a: "Syncora's modular approach makes it ideal for businesses of all sizes. Our Starter plan is designed for SMEs with as few as 10 employees, while our Enterprise plan scales to multinational corporations with thousands of users.",
   },
   {
-    q: "What data security and compliance standards does Solvify meet?",
-    a: "Solvify is ISO 27001 certified, SOC 2 Type II compliant, and GDPR-ready. We use AES-256 encryption at rest and in transit, role-based access controls, 2FA, and offer private cloud or on-premise deployments for maximum security.",
+    q: "What data security and compliance standards does Syncora meet?",
+    a: "Syncora is ISO 27001 certified, SOC 2 Type II compliant, and GDPR-ready. We use AES-256 encryption at rest and in transit, role-based access controls, 2FA, and offer private cloud or on-premise deployments for maximum security.",
   },
   {
     q: "Do you provide training and onboarding for our team?",
@@ -30,12 +30,12 @@ const faqs = [
     a: "All plans include access to our support portal and email support. Professional plans get 24/5 priority support, and Enterprise customers receive dedicated account managers with 24/7 phone, email, and on-site support.",
   },
   {
-    q: "Can we customize Solvify modules to fit our specific workflows?",
-    a: "Yes. Solvify is highly configurable through our no-code workflow designer. For deeper customizations, our development team can build custom modules, reports, and integrations tailored to your exact business requirements.",
+    q: "Can we customize Syncora modules to fit our specific workflows?",
+    a: "Yes. Syncora is highly configurable through our no-code workflow designer. For deeper customizations, our development team can build custom modules, reports, and integrations tailored to your exact business requirements.",
   },
   {
     q: "Is there a free trial available?",
-    a: "Yes, all plans come with a 14-day free trial — no credit card required. You get full access to your chosen plan's features during the trial period, plus dedicated onboarding support to help you get the most out of Solvify.",
+    a: "Yes, all plans come with a 14-day free trial — no credit card required. You get full access to your chosen plan's features during the trial period, plus dedicated onboarding support to help you get the most out of Syncora.",
   },
 ];
 
